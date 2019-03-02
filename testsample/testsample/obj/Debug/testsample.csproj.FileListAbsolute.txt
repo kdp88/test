@@ -1,0 +1,12 @@
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\testsample.dll
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\testsample.pdb
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\Castle.Core.dll
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\TestStack.White.dll
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\Castle.Core.xml
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\TestStack.White.pdb
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\TestStack.White.xml
+C:\dev\TSWHITE\testsample\testsample\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\dev\TSWHITE\testsample\testsample\obj\Debug\testsample.csprojResolveAssemblyReference.cache
+C:\dev\TSWHITE\testsample\testsample\obj\Debug\testsample.dll
+C:\dev\TSWHITE\testsample\testsample\obj\Debug\testsample.pdb
