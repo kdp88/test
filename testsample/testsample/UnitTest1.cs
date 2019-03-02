@@ -1,13 +1,12 @@
-﻿using System;
+﻿using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestStack.White;
 using TestStack.White.Factory;
-using TestStack.White.UIItems.TreeItems;
-using TestStack.White.UIItems.Finders;
 using TestStack.White.UIItems;
-using System.Threading;
+using TestStack.White.UIItems.Finders;
+using TestStack.White.UIItems.TreeItems;
 
-namespace testsample
+namespace testSample
 {
     [TestClass]
     public class UnitTest1
@@ -23,11 +22,11 @@ namespace testsample
             var automationPlaylist = windows.Get<TreeNode>(SearchCriteria.ByText("Automation"));
             automationPlaylist.DoubleClick();
 
-            var PlayPauseButton = windows.Get<Button>(SearchCriteria.ByText("Pause"));
+            var playPauseButton = windows.Get<Button>(SearchCriteria.ByText("Pause"));
             Thread.Sleep(2000);
-            Assert.AreEqual(PlayPauseButton.Text, "Pause");
-            PlayPauseButton.Click();
-            Assert.AreEqual(PlayPauseButton.Text, "Play");
+            Assert.AreEqual(playPauseButton.Text, "Pause");
+            playPauseButton.Click();
+            Assert.AreEqual(playPauseButton.Text, "Play");
 
             application.Close();
         }
