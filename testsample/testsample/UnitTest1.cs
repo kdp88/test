@@ -24,7 +24,8 @@ namespace testsample
             automationPlaylist.DoubleClick();
 
             var PlayPauseButton = windows.Get<Button>(SearchCriteria.ByText("Pause"));
-            Thread.Sleep(3000);
+            Thread.Sleep(2000);
+            Assert.AreEqual(PlayPauseButton.Text, "Pause");
             PlayPauseButton.Click();
             Assert.AreEqual(PlayPauseButton.Text, "Play");
 
